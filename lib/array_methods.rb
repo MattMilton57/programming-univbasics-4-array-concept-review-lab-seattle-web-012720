@@ -9,7 +9,8 @@ end
 
 def find_max_value(array)
   new=array.sort
-  
+  biggie=new.pop
+  return biggie
 end
 
 def find_min_value(array)
